@@ -2,9 +2,11 @@
 ![image](https://i.imgur.com/gLQjCMn.jpg)
 > 此專案為臉部辨識網頁，使用者可註冊與登入，並上傳含有人臉的照片，網頁會呼叫 clarifai API 來辨識並圈出人臉。
 
+> [後端](https://github.com/linyawun/smart-brain-backend)與資料庫皆自行架設，運行在 [Zeabur](https://zeabur.com/zh-TW)。
+
 - [線上觀看連結](https://linyawun.github.io/smart-brain/)
 
-## 功能 
+## 功能
 - [x] 註冊
 - [x] 登入
 - [x] 登出
