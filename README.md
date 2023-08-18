@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Smart Brain
+![image](https://i.imgur.com/gLQjCMn.jpg)
+> 此專案為臉部辨識網頁，使用者可註冊與登入，並上傳含有人臉的照片，網頁會呼叫 clarifai API 來辨識並圈出人臉。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [線上觀看連結](https://linyawun.github.io/smart-brain/)
 
-## Available Scripts
+## 功能 
+- [x] 註冊
+- [x] 登入
+- [x] 登出
+- [x] 辨識人臉照片 
 
-In the project directory, you can run:
+## 畫面
+- 註冊頁
+![image](https://i.imgur.com/GdBp1Sq.jpg)
+- 人臉辨識
+![image](https://i.imgur.com/RiS6LPI.jpg)
 
-### `npm start`
+## 安裝
+以下將會引導你如何安裝此專案到你的電腦上。
+> 請先安裝 [Node.js](https://nodejs.org/zh-tw/download)，Node.js 版本建議為：`18.12.0` 以上
+### 取得專案
+```bash
+git clone https://github.com/linyawun/smart-brain.git
+```
+### 移動到專案內
+```bash
+cd smart-brain
+```
+### 安裝套件
+```bash
+npm install
+```
+### 運行專案
+```bash
+npm start
+```
+### 開啟專案
+在瀏覽器網址列輸入以下即可看到畫面
+```
+http://localhost:8000/
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 資料夾說明
+- public - 靜態檔案放置處
+- src
+  - assets - 圖片放置處
+  - components - React 元件放置處，依元件拆分資料夾
+    - FacRecognition
+    - Form
+    - ImageLinkForm
+    - Logo
+    - Navigation
+    - Rank
+    - Register
+    - Signin
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 專案技術
+- Node.js v18.12.0
+- React v18.2.0
+- tachyons v4.12.0
+- particles-bg v2.5.5
+- react-parallax-tilt v1.7.150
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 聯絡作者
+你可以透過以下方式與我聯絡
+- email: linyawun031@gmail.com
